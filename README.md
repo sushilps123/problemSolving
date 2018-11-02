@@ -11,6 +11,10 @@ Input : 6 4 2 1
         2 3 6 5
 Output : Maximum number of bridges = 2
 
+Input : 6 4 2 1
+        2 3 6 5
+Output : Maximum number of bridges = 2
+
 # MagicVowels
 Consider a string s, consisting of one or more of the following letters: a, e, i, o, and u.
 
@@ -23,6 +27,7 @@ Input Format String s composed of English vowels (i.e., a, e, i, o, and u).
 Output Format Count denoting the length of the longest magical subsequence in s.
 
 Sample Input 1 aeiaaioooaauuaeiou
+
 
 Sample Output 1 : 10
 
