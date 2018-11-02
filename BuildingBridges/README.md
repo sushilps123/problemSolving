@@ -7,8 +7,10 @@ You want to connect as many north-south pairs of cities as possible with bridges
 When connecting cities, you can only connect city a(i) on the northern bank to city b(i) on the southern bank.
 Maximum number of bridges that can be built to connect north-south pairs with the aforementioned constraints.
 
-Input 
+Input
+
 6 4 2 1
 
 2 3 6 5
+
 Output : Maximum number of bridges = 2
