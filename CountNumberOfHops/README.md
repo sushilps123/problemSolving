@@ -20,14 +20,11 @@ Constraints:
 
 # Input:
 2
-
 1
-
 5
 
 # Output:
 1
-
 13
 
 
