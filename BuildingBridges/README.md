@@ -14,3 +14,10 @@ Input
 2 3 6 5
 
 Output : Maximum number of bridges = 2
+
+8 1 4 3 5 2 6 7 
+
+1 2 3 4 5 6 7 8
+
+Output : Maximum number of bridges = 5
+
