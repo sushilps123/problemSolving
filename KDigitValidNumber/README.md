@@ -33,13 +33,21 @@ arr = {1,1,0,1,0}
 In the given sample following are the posssible subsequences that form a valid 3 digit number
 
 [1,2,3] = 110
+
 [1,2,4] = 111
+
 [1,2,5] = 110
+
 [1,3,4] = 101
+
 [1,3,5] = 100
+
 [1,4,5] = 110
+
 [2,3,4] = 101
+
 [2,3,5] = 100
+
 [2,4,5] = 110
 
 
