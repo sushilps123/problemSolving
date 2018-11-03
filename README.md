@@ -1,24 +1,66 @@
-# MagicVowels
-Consider a string s, consisting of one or more of the following letters: a, e, i, o, and u.
+Yor are given an array A of N integers. Each integer is a single digit number in the range[0 9]. You are given a number K. Now, you need to count how many subsequences of the array A ecist such that they form a K digit valid number
 
-We define a magical subsequence of s to be a sequence of letters derived from s that contains all five vowels in order. This means a magical subsequence will have one or more a's followed by one or more e's followed by one or more i's followed by one or more o's followed by one or more u's. For example, if s = "aeeiooua", then "aeiou" and "aeeioou" are magical subsequences but "aeio" and "aeeioua" are not.
+A subsequence of size K is called a valid digit number if therea are no leading zeros in the number formed.
 
-Write a function to find length of longest magical subsequence with parameter string s.
+#Notes
 
-Input Format String s composed of English vowels (i.e., a, e, i, o, and u).
+1) A Subsequence of an array is not necessarily contigous
 
-Output Format Count denoting the length of the longest magical subsequence in s.
+2) Suppose the given array is 0 1 0 2 then if you choose subsequence to be 002,then it is not valid 3 digit number.Also,it will not be considered as a single digit number. A valid 3 digit number in tarray is 102. Please go through same I/O For better understanding.
 
-Sample Input 1 aeiaaioooaauuaeiou
+#Input Format
 
-Sample Output 1 : 10
+The first line contains an Integer N as input denoting the size of the array. Next Line contains N space separated integers that denotes elements of the array. Next line contains an integer K
 
-Explanation 1 In the table below, the component characters of the longest magical subsequence are bold:
+#Output Format
 
-aeiaaioooaauuaeiou
+In the output, you need to print the count of valid K digit numbers
 
-Sample Input 2 aeiaaioooaa
 
-Sample Output 2 : 0
+#Sample Input
+N = 4
+arr = {0,1,0,2}
+output 0
 
-Explanation 2 String s does not contain the letter u, so it is not possible to construct a magical subsequ
+N = 5 
+arr = {1,1,0,1,0}
+
+#Sample Output 
+9
+
+#Explaination
+
+In the given sample following are the posssible subsequences that form a valid 3 digit number
+
+[1,2,3] = 110
+[1,2,4] = 111
+[1,2,5] = 110
+[1,3,4] = 101
+[1,3,5] = 100
+[1,4,5] = 110
+[2,3,4] = 101
+[2,3,5] = 100
+[2,4,5] = 110
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
