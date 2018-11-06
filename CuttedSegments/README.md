@@ -14,9 +14,13 @@ For each test case print in a new line an integer corresponding to the answer .
 # Input
 
 2
+
 4
+
 2 1 1
+
 5
+
 5 3 2
 
 
